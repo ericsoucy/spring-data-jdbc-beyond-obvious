@@ -13,3 +13,13 @@ Based on <https://www.youtube.com/watch?v=SJlKBkZ2yAU&t=969s>
 
 - Test [code](./src/test/java/com/example/springdatajdbcbeyondobvious/conversion/ConversionApplicationTests.java)
 - Code [code](./src/main/java/com/example/springdatajdbcbeyondobvious/conversion/ConversionApplication.java)
+
+## Bidirectional Relationship (internal)
+- Set the backreference whenever adding an inner entity
+- Test [code](./src/test/java/com/example/springdatajdbcbeyondobvious/bidiinternal/BiDiInternalApplicationTests.java)
+- Code [code](./src/main/java/com/example/springdatajdbcbeyondobvious/bidiinternal/Toy.java?plain=1#L25)
+
+## Bidirectional Relationship (external)
+- use a custom query on the repository
+- Test [code](./src/test/java/com/example/springdatajdbcbeyondobvious/bidirectional/BidirectionalApplicationTests.java)
+- Code [code](./src/main/java/com/example/springdatajdbcbeyondobvious/bidirectional/MinionRepository.java?plain=1#L10)

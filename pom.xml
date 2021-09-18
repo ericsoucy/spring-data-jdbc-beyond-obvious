@@ -15,6 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<start-class>com.example.springdatajdbcbeyondobvious.idgeneration.IdGenerationApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -45,6 +46,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<artifactId>android-json</artifactId>
+					<groupId>com.vaadin.external.google</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
 
