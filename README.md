@@ -23,3 +23,10 @@ Based on <https://www.youtube.com/watch?v=SJlKBkZ2yAU&t=969s>
 - use a custom query on the repository
 - Test [code](./src/test/java/com/example/springdatajdbcbeyondobvious/bidirectional/BidirectionalApplicationTests.java)
 - Code [code](./src/main/java/com/example/springdatajdbcbeyondobvious/bidirectional/MinionRepository.java?plain=1#L10)
+
+## Caching
+
+- Use Spring existing caching abstraction on the repository  
+- Test [code](./src/test/java/com/example/springdatajdbcbeyondobvious/caching/CachingApplicationTests.java)
+- Code [code](./src/main/java/com/example/springdatajdbcbeyondobvious/caching/CachingApplication.java?plain=1#L7 )
+- Code [code](./src/main/java/com/example/springdatajdbcbeyondobvious/caching/ColorRepository.java?plain=1#L25)
