@@ -30,3 +30,12 @@ Based on <https://www.youtube.com/watch?v=SJlKBkZ2yAU&t=969s>
 - Test [code](./src/test/java/com/example/springdatajdbcbeyondobvious/caching/CachingApplicationTests.java)
 - Code [EnableCaching](./src/main/java/com/example/springdatajdbcbeyondobvious/caching/CachingApplication.java?plain=1#L7 )
 - Code [cacheable](./src/main/java/com/example/springdatajdbcbeyondobvious/caching/ColorRepository.java?plain=1#L25)
+
+## Eager Loading References
+
+- Create an entity defining the required combination of aggregates (or their pieces)
+- Use a dedicated repository or custom queries
+- You may want to persist the query as a database view
+- Test [code](./src/test/java/com/example/springdatajdbcbeyondobvious/join/JoinApplicationTests.java)
+- Code [custom queries](./src/main/java/com/example/springdatajdbcbeyondobvious/join/MinionRepository.java?plain=1#L25)
+- Code [code](./src/main/java/com/example/springdatajdbcbeyondobvious/join/MinionView.java?plain=1#L26)
