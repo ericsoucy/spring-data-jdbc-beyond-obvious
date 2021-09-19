@@ -28,5 +28,5 @@ Based on <https://www.youtube.com/watch?v=SJlKBkZ2yAU&t=969s>
 
 - Use Spring existing caching abstraction on the repository  
 - Test [code](./src/test/java/com/example/springdatajdbcbeyondobvious/caching/CachingApplicationTests.java)
-- Code [code](./src/main/java/com/example/springdatajdbcbeyondobvious/caching/CachingApplication.java?plain=1#L7 )
-- Code [code](./src/main/java/com/example/springdatajdbcbeyondobvious/caching/ColorRepository.java?plain=1#L25)
+- Code [EnableCaching](./src/main/java/com/example/springdatajdbcbeyondobvious/caching/CachingApplication.java?plain=1#L7 )
+- Code [cacheable](./src/main/java/com/example/springdatajdbcbeyondobvious/caching/ColorRepository.java?plain=1#L25)
